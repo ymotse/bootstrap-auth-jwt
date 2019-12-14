@@ -5,6 +5,11 @@ import org.springframework.boot.SpringBootVersion;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.core.SpringVersion;
 
+/**
+ * 
+ * @author yitshhaq.fukushima
+ *
+ */
 @SpringBootApplication
 public class BootstrapAuthJwt {
 
