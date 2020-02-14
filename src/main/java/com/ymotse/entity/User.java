@@ -55,6 +55,9 @@ public class User implements UserDetails {
 	@Column(name = "login", unique = true, length = 30, nullable = false, updatable = false)
 	private String login;
 	
+	@Column(name = "name", length = 30, nullable = false)
+	private String name;
+	
 	@JsonIgnore
 	@Column(name = "password", nullable = false)
 	private String pass;
