@@ -1,4 +1,4 @@
-package com.ymotse.security;
+package com.ymotse.security.authentication;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;

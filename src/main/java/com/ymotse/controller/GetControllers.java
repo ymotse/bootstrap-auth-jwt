@@ -36,9 +36,6 @@ public class GetControllers {
 
     	String username = jwtProvider.getUserNameFromJwtToken(token.replace("Bearer ",""));
     	
-    	
-    	System.out.println( userRepository.findByLogin(username).get().toString() );
-    	
 		return new ResponseEntity<User>(userRepository.findByLogin(username).get(), HttpStatus.OK);
 	}
     

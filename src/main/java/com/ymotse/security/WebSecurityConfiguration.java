@@ -15,7 +15,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.cors.CorsConfiguration;
 
-import com.ymotse.authentication.LoginDetailsService;
+import com.ymotse.security.authentication.LoginDetailsService;
 
 /**
  * 

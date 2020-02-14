@@ -1,4 +1,4 @@
-package com.ymotse.authentication;
+package com.ymotse.security.authentication;
 
 import java.util.Calendar;
 

@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ymotse.authentication.JwtResponse;
-import com.ymotse.security.FormUser;
 import com.ymotse.security.JwtProvider;
+import com.ymotse.security.authentication.FormUser;
+import com.ymotse.security.authentication.JwtResponse;
 
 /**
  * 
